@@ -15,6 +15,7 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filters:hover,
 .filters:focus {
@@ -35,10 +36,12 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: #212121;
 }
 .choice {
   font-weight: 400;
   font-size: 16px;
+
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: #757575;
@@ -88,10 +91,11 @@
   flex-wrap: wrap;
   margin-top: 50px;
 }
-.main-text .flex-element {
+.flex-element {
   margin-right: 30px;
   margin-top: 30px;
   width: 370px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .flex-element:hover,
 .flex-element:focus {

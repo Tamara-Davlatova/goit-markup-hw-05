@@ -94,6 +94,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav:hover,
 .header-nav:focus {
@@ -109,6 +110,7 @@ img {
 .contact-logo {
   fill: #757575;
   margin-right: 10px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .envelope {
@@ -151,6 +153,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-links:hover,
 .contact-links:focus {
@@ -168,6 +171,7 @@ footer {
   fill: #afb1b8;
   width: 20px;
   height: 20px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-logo-footer {
   fill: #ffffff;
@@ -180,6 +184,7 @@ footer {
   height: 44px;
   padding: 12px;
   border-radius: 50%;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover,
 .social-link:focus {
